@@ -1,0 +1,39 @@
+header{
+    padding:30px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+#hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text {
+  color: white;
+  display: flex;
+  flex-direction: column; /* Makes items stack vertically */
+  align-items: center;
+  gap: 10px; /* Optional: space between h2 and p */
+}
+
+#featured-products{
+    height: 50%;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+main{
+    padding: 0 0 200px 0;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: #f8f9fa;
+}

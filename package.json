@@ -1,0 +1,27 @@
+{
+  "name": "demo-ecommerce-site",
+  "version": "1.0.0",
+  "description": "creating a demo ecommerce site with product listing and checkout. Integrated a mock Stripe API to simulate payment processing.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjgh/demo-ecommerce-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjgh/demo-ecommerce-site/issues"
+  },
+  "homepage": "https://github.com/anjgh/demo-ecommerce-site#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "stripe": "^18.3.0"
+  }
+}
